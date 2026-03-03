@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "title": "HVAC and TAB Contractors",
+        "description": "As a trusted testing and balancing expert, maximizing HVAC efficiency and comfort is crucial for ensuring significant energy savings and a comfortable room climate. A well-balanced HVAC system enhances indoor air quality (IAQ), promoting a healthier environment for occupants. Investing in professional testing and balancing equipment and services is the right choice for maintaining a high-performance HVAC system that delivers reliable comfort and efficiency. Choose TSI for precision HVAC solutions that fine-tune your indoor environments for better efficiency and reliability. ",
+        "image": "/images/home/service-1.png",
+        "badge": "HVAC"
+    },
+    {
+        "id": 2,
+        "title": "Occupational Health and Safety",
+        "description": "As an occupational health & safety professional or industrial hygienist, your role is pivotal in continuously assessing, documenting, and implementing corrective or preventive actions to ensure the well-being of your workforce while adhering to compliance standards. Recognizing that a robust safety program hinges on accurate data, TSI is proud to offer a suite of precise occupational health and safety solutions. With these instrument and software tools, you can identify and assess enabling you to make informed decisions with confidence and prioritize the health and safety of your workers and mitigate risks.",
+        "image": "/images/home/service-2.jpg",
+        "badge": "OCCUPATIONAL HEALTH AND SAFETY"
+    },
+    {
+        "id": 3,
+        "title": "Indoor Environments",
+        "description": "TSI boasts decades of expertise and experience in the field of air quality measurement. With a legacy spanning over five decades, TSI has consistently demonstrated its commitment to advancing IEQ and IAQ monitoring technology and setting industry standards. The company's profound knowledge and extensive research in the field have enabled them to develop cutting-edge instruments that deliver precise and reliable IEQ and IAQ measurements.",
+        "image": "/images/home/service-3.jpg",
+        "badge": "INDOOR ENVIRONMENTS"
+    },
+    {
+        "id": 4,
+        "title": "Electronics Manufacturing",
+        "description": "The microelectronics industry heavily relies on semiconductor manufacturing as a critical process in the the production of integrated circuits (ICs) vital for various electronics devices. We help drive advancements in various markets from consumer electronics to aerospace - producing safer cars with sophisticated sensor networks, more functional smartphones, innovative medical devices, and faster, lighter computers.",
+        "image": "/images/home/service-4.jpg",
+        "badge": "ELECTRONICS MANUFACTURING"
+    },
+    {
+        "id": 5,
+        "title": "Healthcare",
+        "description": "Protecting medical staff, patients and residents from hazards and infections is an enormous responsibility. Whether you manage hospitals, clinics, long-term care facilities or pharmacies, ensuring compliance and safety standards is non-negotiable. Achieving these goals demands precise and often continuous monitoring solutions. Explore our comprehensive range of monitoring technologies tailored to meet the stringent needs of healthcare environments.",
+        "image": "/images/home/service-5.jpg",
+        "badge": "HEALTHCARE"
+    }
+]

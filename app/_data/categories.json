@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "title": "Abbreviated Impactor Measurement (AIM) Equipment",
+        "description": "Precision sensors for varied industrial monitoring applications.",
+        "image": "/images/home/product-1.png"
+    },
+    {
+        "id": 2,
+        "title": "Aerosol and Dust Monitors",
+        "description": "Monitors designed for real-time measuring of dust, fumes, mists, and smoke.",
+        "image": "/images/home/product-2.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Aerosol Generators & Dispersers",
+        "description": "Instruments for characterizing complex aerosol particles and distributions.",
+        "image": "/images/home/product-3.jpg"
+    }
+]
