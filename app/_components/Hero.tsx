@@ -11,10 +11,10 @@ import { motion } from "framer-motion";
 import Button from "./Button";
 
 const bannerVideos = [
-    "https://cdn.clinicalvisuals.com/siteImages/bytech/bytec_01.webm",
-    "https://cdn.clinicalvisuals.com/siteImages/bytech/bytec_02.webm",
-    "https://cdn.clinicalvisuals.com/siteImages/bytech/bytec_03.webm",
-    "https://cdn.clinicalvisuals.com/siteImages/bytech/bytec_04.webm",
+    "https://cdn.clinicalvisuals.com/medical/tsi/landingpage/tsi_01.webm",
+    "https://cdn.clinicalvisuals.com/medical/tsi/landingpage/tsi_02.webm",
+    "https://cdn.clinicalvisuals.com/medical/tsi/landingpage/tsi_03.webm",
+    "https://cdn.clinicalvisuals.com/medical/tsi/landingpage/tsi_04.webm",
 ];
 
 const slides = [
@@ -83,7 +83,8 @@ export default function Hero() {
                                         initial={{ opacity: 0, y: 20 }}
                                         animate={isActive ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
                                         transition={{ duration: 0.8 }}
-                                        className="text-3xl md:text-5xl lg:text-5xl font-bold leading-tight mb-6 whitespace-pre-line text-shadow-md"
+                                        className="text-3xl md:text-5xl lg:text-5xl font-bold leading-tight mb-6 whitespace-pre-line"
+                                        style={{ textShadow: "1px 2px 8px rgba(0, 0, 0, 0.8)" }}
                                     >
                                         {slide.title}
                                     </motion.h1>
@@ -91,7 +92,8 @@ export default function Hero() {
                                         initial={{ opacity: 0, y: 20 }}
                                         animate={isActive ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
                                         transition={{ duration: 0.8, delay: 0.2 }}
-                                        className="text-sm md:text-base mb-8 max-w-lg leading-relaxed text-shadow-md"
+                                        className="text-sm md:text-base mb-8 max-w-lg leading-relaxed"
+                                        style={{ textShadow: "1px 2px 6px rgba(0, 0, 0, 0.8)" }}
                                     >
                                         {slide.description}
                                     </motion.p>

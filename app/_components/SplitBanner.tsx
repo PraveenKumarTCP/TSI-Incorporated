@@ -13,9 +13,14 @@ export default function SplitBanner() {
                 <div className="flex flex-col lg:flex-row min-h-[400px] overflow-hidden rounded-3xl shadow-2xl" data-aos="fade-right">
                     {/* Video Placeholder */}
                     <div className="lg:w-1/2 bg-black relative flex items-center justify-center p-24">
-                        <div className="w-20 h-20 bg-[#1A80C3] rounded-full flex items-center justify-center text-white cursor-pointer hover:scale-110 transition-transform shadow-[0_0_20px_rgba(18,119,176,0.6)]">
-                            <Play fill="white" size={32} />
-                        </div>
+                        <video
+                            src="https://cdn.clinicalvisuals.com/medical/tsi/landingpage/tsi_01.webm"
+                            autoPlay
+                            muted
+                            loop
+                            playsInline
+                            className="absolute inset-0 w-full h-full object-cover z-0"
+                        ></video>
                     </div>
                     {/* Content */}
                     <div className="lg:w-1/2 bg-[#1A80C3] p-6 md:p-10 text-white flex flex-col justify-center items-start">
@@ -44,12 +49,16 @@ export default function SplitBanner() {
                     </div>
                     {/* Video Placeholder */}
                     <div className="lg:w-1/2 order-first lg:order-last bg-black relative flex items-center justify-center p-24">
-                        <div className="w-20 h-20 border-2 border-[#1A80C3] rounded-full flex items-center justify-center text-[#1A80C3] cursor-pointer hover:bg-[#1A80C3] hover:text-white transition-all">
-                            <Play fill="currentColor" size={32} />
-                        </div>
+                        <video
+                            src="https://cdn.clinicalvisuals.com/medical/tsi/landingpage/tsi_02.webm"
+                            autoPlay
+                            muted
+                            loop
+                            playsInline
+                            className="absolute inset-0 w-full h-full object-cover z-0"
+                        ></video>
                     </div>
                 </div>
-
             </div>
         </section>
     );
